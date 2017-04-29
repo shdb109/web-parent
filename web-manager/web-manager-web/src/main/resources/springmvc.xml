@@ -21,11 +21,11 @@
 
     <!-- 试图解析 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp" />
+        <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
 
     <!-- 资源映射 -->
-    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
-    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
+    <mvc:resources location="/WEB-INF/amazeUI/css/" mapping="/amazeUI/css/**"/>
+    <mvc:resources location="/WEB-INF/amazeUI/js/" mapping="/amazeUI/js/**"/>
 </beans>
