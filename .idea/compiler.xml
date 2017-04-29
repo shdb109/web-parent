@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web-common" />
+        <module name="web-manager-mapper" />
+        <module name="web-manager-pojo" />
+        <module name="web-manager-service" />
+        <module name="web-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="web-common" target="1.7" />
+      <module name="web-manager" target="1.7" />
+      <module name="web-manager-mapper" target="1.7" />
+      <module name="web-manager-pojo" target="1.7" />
+      <module name="web-manager-service" target="1.7" />
+      <module name="web-manager-web" target="1.7" />
+      <module name="web-parent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/web-common/web-common.iml" filepath="$PROJECT_DIR$/web-common/web-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manager/web-manager.iml" filepath="$PROJECT_DIR$/web-manager/web-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manager/web-manager-mapper/web-manager-mapper.iml" filepath="$PROJECT_DIR$/web-manager/web-manager-mapper/web-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manager/web-manager-pojo/web-manager-pojo.iml" filepath="$PROJECT_DIR$/web-manager/web-manager-pojo/web-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manager/web-manager-service/web-manager-service.iml" filepath="$PROJECT_DIR$/web-manager/web-manager-service/web-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manager/web-manager-web/web-manager-web.iml" filepath="$PROJECT_DIR$/web-manager/web-manager-web/web-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-parent.iml" filepath="$PROJECT_DIR$/web-parent.iml" />
+    </modules>
+  </component>
+</project>
