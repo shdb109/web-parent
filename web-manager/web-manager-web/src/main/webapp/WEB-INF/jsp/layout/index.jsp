@@ -17,14 +17,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="amazeUI/css/admin.css">
     <link rel="stylesheet" href="amazeUI/css/amazeui.css">
+    <link rel="stylesheet" href="amazeUI/css/amazeui.flat.css">
 </head>
 <body>
-    <div class="am-g">
-        <div class="am-u-sm-12" style="border: 1px solid">
+    <div class="am-g am-g-collapse">
+        <div class="am-u-sm-12">
             <jsp:include page="header.jsp"></jsp:include>
         </div>
     </div>
-    <div class="am-g">
+    <div class="am-g ">
         <div class="am-u-sm-3" style="border: 1px solid">
             <jsp:include page="menu.jsp"></jsp:include>
         </div>

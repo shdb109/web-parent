@@ -11,7 +11,7 @@
     <title>web后台管理系统</title>
 </head>
 <body>
-    <header class="am-topbar am-topbar-inverse">
+    <header class="am-topbar am-topbar-inverse am-topbar-fixed-top">
         <h1 class="am-topbar-brand">
             <a href="#">Amaze UI</a>
         </h1>
@@ -20,11 +20,11 @@
 
         <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
             <ul class="am-nav am-nav-pills am-topbar-nav">
-                <li class="am-active"><a href="#">首页</a></li>
+                <li class="am-active"><a href="#doc-oc-demo1" data-am-offcanvas>首页</a></li>
                 <li><a href="#">项目</a></li>
                 <li class="am-dropdown" data-am-dropdown>
                     <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-                        下拉 <span class="am-icon-caret-down"></span>
+                        下拉 <span class="am-icon-chevron-down"></span>
                     </a>
                     <ul class="am-dropdown-content">
                         <li class="am-dropdown-header">标题</li>
