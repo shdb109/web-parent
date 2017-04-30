@@ -11,39 +11,18 @@
     <title>web后台管理系统</title>
 </head>
 <body>
-    <header class="am-topbar am-topbar-inverse am-topbar-fixed-top">
-        <h1 class="am-topbar-brand">
-            <a href="#">Amaze UI</a>
+    <header class="am-topbar am-topbar-inverse am-topbar-fixed-top" style="box-shadow: 2px 2px 3px #aaaaaa;border: 0px;">
+
+        <h1 class="am-topbar-brand" style="margin-left: 1%;">
+            <span id="menu-switch">
+                <a id="menu-switch-button1" class="am-icon-reorder"></a>
+                <a id="menu-switch-button2" class="am-icon-arrow-circle-left menu-switch-hidden"></a>
+            </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">WEB 后台管理系统</a>
         </h1>
 
-        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
-
         <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
-            <ul class="am-nav am-nav-pills am-topbar-nav">
-                <li class="am-active"><a href="#doc-oc-demo1" data-am-offcanvas>首页</a></li>
-                <li><a href="#">项目</a></li>
-                <li class="am-dropdown" data-am-dropdown>
-                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-                        下拉 <span class="am-icon-chevron-down"></span>
-                    </a>
-                    <ul class="am-dropdown-content">
-                        <li class="am-dropdown-header">标题</li>
-                        <li><a href="#">1. 去月球</a></li>
-                        <li class="am-active"><a href="#">2. 去火星</a></li>
-                        <li><a href="#">3. 还是回地球</a></li>
-                        <li class="am-disabled"><a href="#">4. 下地狱</a></li>
-                        <li class="am-divider"></li>
-                        <li><a href="#">5. 桥头一回首</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <form class="am-topbar-form am-topbar-left am-form-inline" role="search">
-                <div class="am-form-group">
-                    <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
-                </div>
-            </form>
-
             <div class="am-topbar-right">
                 <div class="am-dropdown" data-am-dropdown="{boundary: '.am-topbar'}">
                     <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm am-dropdown-toggle" data-am-dropdown-toggle>其他 <span class="am-icon-caret-down"></span></button>

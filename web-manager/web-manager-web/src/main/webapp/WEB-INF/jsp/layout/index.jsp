@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="amazeUI/css/admin.css">
     <link rel="stylesheet" href="amazeUI/css/amazeui.css">
     <link rel="stylesheet" href="amazeUI/css/amazeui.flat.css">
+    <link rel="stylesheet" href="amazeUI/css/manager/index.css">
 </head>
 <body>
     <div class="am-g am-g-collapse">
@@ -26,14 +27,18 @@
         </div>
     </div>
     <div class="am-g ">
-        <div class="am-u-sm-3" style="border: 1px solid">
+        <div class="am-u-sm-2">
             <jsp:include page="menu.jsp"></jsp:include>
         </div>
-        <div class="am-u-sm-9" style="border: 1px solid">
-            9
+        <div class="am-u-sm-10">
+            <div class="tpl-content-wrapper"></div>
         </div>
     </div>
 </body>
 </html>
 <script type="text/javascript" src="amazeUI/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="amazeUI/js/amazeui.js"></script>
+<script type="text/javascript" src="amazeUI/js/manager/index.js"></script>
+<script type="text/javascript">
+    autoLeftNav();
+</script>
