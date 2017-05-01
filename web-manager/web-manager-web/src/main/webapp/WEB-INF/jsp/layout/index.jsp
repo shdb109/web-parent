@@ -26,6 +26,7 @@
             <jsp:include page="header.jsp"></jsp:include>
         </div>
     </div>
+
     <div class="am-g ">
         <div class="am-u-sm-2">
             <jsp:include page="menu.jsp"></jsp:include>
