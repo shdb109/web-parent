@@ -14,9 +14,9 @@
     <header class="am-topbar am-topbar-inverse am-topbar-fixed-top" style="box-shadow: 2px 2px 3px #aaaaaa;border: 0px;">
 
         <h1 class="am-topbar-brand" style="margin-left: 1%;">
-            <span id="menu-switch">
-                <a id="menu-switch-button1" class="am-icon-reorder"></a>
-                <a id="menu-switch-button2" class="am-icon-arrow-circle-left menu-switch-hidden"></a>
+            <span id="menu-switch" class="two">
+                <a id="menu-switch-button1" class="am-icon-reorder web-style-hidden"></a>
+                <a id="menu-switch-button2" class="am-icon-arrow-circle-left"></a>
             </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#">WEB 后台管理系统</a>

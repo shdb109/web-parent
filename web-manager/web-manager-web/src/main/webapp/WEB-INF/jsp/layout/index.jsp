@@ -20,19 +20,19 @@
     <link rel="stylesheet" href="amazeUI/css/amazeui.flat.css">
     <link rel="stylesheet" href="css/manager/index.css">
 </head>
-<body>
+<body style="height: 100%">
     <div class="am-g am-g-collapse">
         <div class="am-u-sm-12">
             <jsp:include page="header.jsp"></jsp:include>
         </div>
     </div>
 
-    <div class="am-g ">
-        <div class="am-u-sm-2">
+    <div class="am-g" style="height: 100%">
+        <div id="leftNav" class="am-u-sm-2" style="box-shadow: 2px 2px 3px #aaaaaa;border: 0px;height: 100%">
             <jsp:include page="menu.jsp"></jsp:include>
         </div>
-        <div class="am-u-sm-10">
-            <div class="tpl-content-wrapper"></div>
+        <div id="content" class="am-u-sm-10">
+            dd
         </div>
     </div>
 </body>
@@ -42,4 +42,5 @@
 <script type="text/javascript" src="js/manager/index.js"></script>
 <script type="text/javascript">
     autoLeftNav();
+    showLeftNav();
 </script>
