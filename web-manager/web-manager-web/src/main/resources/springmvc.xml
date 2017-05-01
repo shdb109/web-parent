@@ -29,4 +29,7 @@
     <mvc:resources location="/WEB-INF/amazeUI/css/" mapping="/amazeUI/css/**"/>
     <mvc:resources location="/WEB-INF/amazeUI/js/" mapping="/amazeUI/js/**"/>
     <mvc:resources mapping="/amazeUI/fonts/**" location="/WEB-INF/amazeUI/fonts/" />
+
+    <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
+    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
 </beans>

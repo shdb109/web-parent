@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="amazeUI/css/admin.css">
     <link rel="stylesheet" href="amazeUI/css/amazeui.css">
     <link rel="stylesheet" href="amazeUI/css/amazeui.flat.css">
-    <link rel="stylesheet" href="amazeUI/css/manager/index.css">
+    <link rel="stylesheet" href="css/manager/index.css">
 </head>
 <body>
     <div class="am-g am-g-collapse">
@@ -38,7 +38,7 @@
 </html>
 <script type="text/javascript" src="amazeUI/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="amazeUI/js/amazeui.js"></script>
-<script type="text/javascript" src="amazeUI/js/manager/index.js"></script>
+<script type="text/javascript" src="js/manager/index.js"></script>
 <script type="text/javascript">
     autoLeftNav();
 </script>
